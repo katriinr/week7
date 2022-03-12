@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    
+    
+    .container {
+        height: 300px;
+        width: 300px;
+        border: 1px solid rgb(26, 26, 68);
+        border-radius: 5px;
+        margin: 10rem auto;
+        text-align: center;
+        background: linear-gradient(rgba(47, 47, 119, 0.705), rgba(49, 43, 43, 0.616)),
+        url('../images/1.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .container > input, .container button {
+        display: block;
+        margin: 1rem auto;
+    
+    }
+    .container button {
+        width: 5rem;
+        padding: 0.3rem;
+        color: aliceblue;
+        background-color: rgba(28, 28, 44, 0.856);
+    }
+    
+    .container h3 {
+        margin: 1rem;
+        color: aliceblue;
+        text-transform: capitalize;
+    }
+    .container p {
+        color: aliceblue;
+        font-size: 1.25rem;
+    }
